@@ -113,4 +113,127 @@ export default function Loop() {
     //     </View>
     // );
     // SOAL LOOP NO 5
+
+    // let flag = 1;
+    // const daftarAntrean = [];
+    
+    // while (flag < 10) {
+    //     console.log ('Memanggil nasabah antrean ke-${flag}');
+    //     daftarAntrean.push(
+    //         <Text key={flag}>Memanggil nasabah antrean ke-{flag}</Text>
+    //     );
+    //     flag++;
+    // }
+
+    // return (
+    //     <View>
+    //         <Text>Sistem Antrean Bank: </Text>
+    //         {daftarAntrean}
+    //     </View>
+    // );
+    // SOAL LOOP NO 6
+
+    // let deret = 4;
+    // let jumlah = 0;
+    // const logTabungan = [];
+
+    // while (deret > 0) {
+    //     jumlah += deret;
+
+    //     console.log (`Menabung: ${deret} | Total Tabungan Saat Ini: ${jumlah}`)
+
+    //     logTabungan.push (
+    //         <Text key={deret}>Menabung: {deret}. Total: {jumlah}</Text>
+    //     );
+    //     deret--;
+    // }
+
+    // return (
+    //     <View>
+    //         <Text>Catatan Celengan Siswa: </Text>
+    //         {logTabungan}
+    //     </View>
+    // );
+    // SOAL LOOP NO 7
+
+    // let i = 0;
+    // const logSensor = [];
+
+    // while (i < 5) {
+    //     if (i === 3) {
+    //         console.log("Awas Halangan Dekat!");
+    //         logSensor.push(
+    //             <Text key={i} style={{ color: 'red'}}>
+    //                 Awas Halangan Dekat!
+    //             </Text>
+    //         );
+    //     } else {
+    //         console.log(`Jarak aman. Posisi iterasi: ${i}`);
+    //         logSensor.push(
+    //             <Text key={i}>Jarak aman. Posisi iterasi: {i}</Text>
+    //         );
+    //     }
+    //     i++;
+    // }
+
+    // return (
+    //     <View style={{ padding: 20 }}>
+    //         <Text style={{ fontWeight: 'bold', marginBottom: 10, fontSize: 16 }}>
+    //             Status Sensor Parkir Ultrasonik:
+    //         </Text>
+    //         {logSensor}
+    //     </View>
+    // );
+    // SOAL LOOP NO 8
+
+    // let flag = 1;
+    // const logAbsensi = [];
+
+    // while (flag < 10) {
+    //     console.log('Iterasi ke-' + flag);
+
+    //     logAbsensi.push(
+    //         <Text key={flag}>Sistem absensi memproses data ke-{flag}</Text>
+    //     );
+    //     flag++;
+    // }
+
+    // return (
+    //     <View>
+    //         <Text style={{ fontWeight: 'bold'}}>
+    //             Perbaikan Bug Loading Absensi:
+    //         </Text>
+    //         {logAbsensi}
+    //     </View>
+    // );
+    // ALASAN INFINITE LOOP: Terjadi karena tidak ada increment (flag++). Akibatnya, nilai flag terus mematung di angka 1. Kondisi (flag < 10) menjadi TRUE selamanya sehingga loop tidak memiliki jalan keluar untuk berhenti.
+    // SOAL LOOP NO 9
+
+    // const hasilUndian = [];
+
+    // for (let i = 1; i <= 10; i++) {
+    //     let kategori = "";
+
+    //     if (i % 2 === 0) {
+    //         kategori = "Kupon Genap";
+    //     } else {
+    //         kategori = "Kupon Ganjil";
+    //     }
+        
+    //     console.log(`Nomor ${i}: ${kategori}`);
+
+    //     hasilUndian.push (
+    //         <Text key={i}>Nomor {i}: {kategori}</Text>
+    //     )
+    // }
+
+    // return (
+    //     <View style={{ padding: 20 }}>
+    //         <Text style={{ fontWeight: 'bold'}}>
+    //             Undian Pemenang Jalan Sehat:
+    //         </Text>
+    //         {hasilUndian}
+    //     </View>
+    // );
+    // SOAL LOOP NO 10
 }
