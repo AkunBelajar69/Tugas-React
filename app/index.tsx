@@ -3,6 +3,8 @@ import VarScreen from "./var";
 import KondScreen from "./kond";
 import LoopScreen from "./loop";
 import OpacityScreen from "./opacity";
+import ArrScreen from "./arr";
+import FuncScreen from "./func";
 
 export default function Index() {
   return (
@@ -17,6 +19,8 @@ export default function Index() {
       <KondScreen/>
       <LoopScreen/>
       <OpacityScreen/>
+      <ArrScreen/>
+      <FuncScreen/>
     </View>
   );
 }
