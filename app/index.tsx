@@ -5,6 +5,7 @@ import LoopScreen from "./loop";
 import OpacityScreen from "./opacity";
 import ArrScreen from "./arr";
 import FuncScreen from "./func";
+import CompScreen from "./comp"
 
 export default function Index() {
   return (
@@ -21,6 +22,7 @@ export default function Index() {
       <OpacityScreen/>
       <ArrScreen/>
       <FuncScreen/>
+      <CompScreen/>
     </View>
   );
 }
